@@ -1,14 +1,17 @@
 .projects-sec {
-    width: 1520px;
+    width: 920px;
     height: 1500px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: rgba(251, 215, 224, 0.623);
     border-radius: 5%;
+    margin-left: 280px;
 }
 
 .middle-line {
-    width: 1028px;
+    width: 900px;
     height: 0.05px;
     display: flex;
     flex-direction: column;
@@ -21,7 +24,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin: 20px;
-    width: 1400px;
+    width: 830px;
     height: 300px;
     background-color: #ffffff;
     border-radius: 15px;
