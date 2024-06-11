@@ -1,4 +1,4 @@
-header{
+header {
     width: 100%;
     max-width: 1400px;
     display: block;
@@ -7,7 +7,7 @@ header{
 }
 
 
-.navbar{
+.navbar {
     width: 100%;
     position: fixed;
     display: flex;
@@ -17,12 +17,12 @@ header{
 
 }
 
-.link-group{
+.link-group {
     list-style: none;
     display: flex;
 }
 
-.link a{
+.link a {
     color: #f174ac;
     opacity: 0.5;
     text-decoration: none;
@@ -34,7 +34,122 @@ header{
     font-size: 20px;
 }
 
-.link a:hover, .link.active a{
+.link a:hover,
+.link.active a {
     opacity: 1;
 }
+
+
+main {
+    width: auto;
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.blank-main {
+    width: 120px;
+    height: auto;
+}
+
+.left-aside {
+    width: 180px;
+    height: 600px;
+    background-color: #fbe7ea;
+    margin-right: 20px;
+    border-top-right-radius: 30px;
+    padding-left: 15px;
+    padding-right: 10px;
+    border-bottom-right-radius: 30px;
+}
+
+.right-aside {
+    width: 750px;
+    height: auto;
+    background-color: #f4b9b6;
+    border-top-right-radius: 30px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: 2px;
+
+}
+
+.best .line {
+    width: 150px;
+    border: 1.5px dotted black;
+    margin-top: 10px;
+}
+
+
+.text2-1 {
+    font-size: 12px;
+
+}
+
+.logo {
+    color: rgb(0, 0, 0);
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h1 {
+    color: white;
+    font-family: "Sofia", sans-serif;
+    font-size: 40px;
+}
+
+.skills {
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 20px;
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
+}
+
+.text {
+    color: rgb(253, 139, 139);
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 0 0 2px rgb(98, 16, 16);
+}
+
+.text-2 {
+    color: rgb(40, 6, 6);
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.text2-2 {
+    color: white;
+    font-family: sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.certifications{
+        width: 1022px;
+        height: 210px;
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        margin-left: 345px;
+        padding-top: 30px;
+        padding-left: 20px;
+        background-color: #fbe7ea;
+        text-transform: uppercase;
+font-family: "Josefin Slab", serif;
+}
+
+ h2{
+text-transform: uppercase;
+ }       
+
 

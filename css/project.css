@@ -1,0 +1,54 @@
+.projects-sec {
+    width: 1520px;
+    height: 1500px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(251, 215, 224, 0.623);
+    border-radius: 5%;
+}
+
+.middle-line {
+    width: 1028px;
+    height: 0.05px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+}
+
+
+.projects-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    width: 1400px;
+    height: 300px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    padding: 20px;
+
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.projects-img{
+border: 3px solid pink;
+border-radius: 15px;
+
+}
+
+p{ color: rgb(253, 139, 139);
+    font-family: "Josefin Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    text-shadow: 0 0 2px rgb(98, 16, 16);}

@@ -1,0 +1,70 @@
+h2{
+display: flex;
+justify-content: center;
+font-family:'Montserrat',sans-serif;
+color: #ffffff;
+margin-top:-5px;
+padding-top: 70px;
+}
+
+.contact{background-color: #f2c3c3;
+height: 750px;
+}
+
+.contactForm {
+  padding-left: 20px;
+  border: rgb(237, 212, 219) 0px solid;
+  height: auto;
+}
+
+.form{
+  width:340px;
+  height:auto;
+  background:#faeaea;
+  border-radius:8px;
+  box-shadow:0 0 40px -10px #f2c3c3;
+  margin: auto;
+  padding:20px 30px;max-width:calc(100vw - 40px);
+  box-sizing:border-box;
+  font-family:'Montserrat',sans-serif;
+  position:relative
+}
+
+
+
+input{
+  width:100%;
+  padding:10px;
+  box-sizing:border-box;
+  border:0;font-family:'Montserrat',sans-serif;transition:all .3s;
+  border-bottom:2px solid #e9c7d6;
+  color:rgb(0, 0, 0);
+  font-size: 16px;
+}
+
+input:focus{
+  border-bottom:2px solid #e4aabd;
+}
+
+p:before{
+  content:attr(type);
+  display:block;margin:28px 0 0;
+  font-size:16px;color:#f7a9a9;
+}
+
+
+
+button{
+  
+  padding:8px 12px;
+  margin:8px 0 0;font-family:'Montserrat',sans-serif;
+  border:2px solid #fbb6c3;background:0;
+  color:#000000;
+  cursor:pointer;
+  transition:all .3s;
+  font-size: 16px;
+}
+
+button:hover{
+  background:#faacbb;color:#fff;
+}
